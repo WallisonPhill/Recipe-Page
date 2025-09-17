@@ -1,0 +1,24 @@
+.header {
+  font-family: var(--font-family-young-sefir);
+}
+
+.header img {
+  width: 100%;
+  border-radius: 0.8rem;
+  margin-bottom: 2.4rem;
+  object-fit: cover;
+}
+
+.header h1 {
+  font-size: 3rem;
+  color: var(--stone-900);
+  margin-bottom: 1.6rem;
+}
+
+.header p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  font-family: var(--font-family-outfit);
+  color: var(--stone-600);
+  margin-bottom: 2.5rem;
+}

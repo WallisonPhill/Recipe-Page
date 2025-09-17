@@ -1,0 +1,71 @@
+.main {
+  font-family: var(--font-family-outfit);
+  color: var(--stone-600);
+}
+
+.main .preparation-time {
+  background-color: var(--rose-50);
+  border-radius: .8rem;
+  padding: 2rem;
+}
+
+.main .preparation-time h4 {
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+  color: var(--rose-800); 
+}
+
+.main .preparation-time ul {
+  padding-left: 2.5rem;
+}
+
+.main .preparation-time ul li {
+  margin-top: .8rem;
+  padding-left: 1rem;
+  color: var(--stone-900);
+}
+
+.main .preparation-time ul li span {
+  font-weight: 700;
+}
+
+.main .ingredients {
+  margin-top: 3.2rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid var(--stone-150);
+}
+
+.main .ingredients ul {
+  padding-left: 2.5rem;
+}
+
+.main .ingredients ul li {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+  color: var(--stone-900);
+}
+
+.main .instructions {
+  margin-top: 3.2rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid var(--stone-150);
+}
+
+.main .instructions ol {
+  padding-left: 2.5rem;
+}
+
+.main .instructions ol li {
+  margin-top: 1.6rem;
+  padding-left: 1.5rem;
+  color: var(--stone-900);
+}
+
+.main .instructions ol li span {
+  font-weight: 700;
+}
+
+.main .instructions ol li p {
+  margin-top: .8rem;
+  line-height: 1.5;
+}

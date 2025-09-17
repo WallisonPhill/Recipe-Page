@@ -1,0 +1,35 @@
+.footer {
+  margin-top: 3rem;
+  font-family: var(--font-family-outfit);
+}
+
+.footer p {
+  color: var(--stone-600);
+  font-size: 1.5rem;
+}
+
+.nutrition-info {
+  margin-top: 2.5rem;
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--stone-150);
+  display: flex;
+  justify-content: space-between;
+  padding-right: 40%;
+  padding-left: 10%;
+}
+
+.nutrition-info span {
+  color: var(--stone-600);
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.nutrition-info .value {
+  color: var(--brown-800);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.nutrition-info:last-child {
+  border-bottom: none;
+}
